@@ -1,27 +1,27 @@
 # Mission Stat
 
-O número impossível. Mona Sans no peso máximo, precedido por um tick em `fire-orange`.
+The impossible number. Mona Sans at maximum weight, fronted by a `fire-orange` tick.
 
-## Por que o tick
+## Why the tick
 
-O número precisa de ênfase, e a marca proíbe laranja como superfície dominante. O tick
-de `border-width-thick` 4px resolve os dois: marca o número sem inundar o layout de
-laranja. É a mesma lógica que rege todos os organismos — `fire-orange` aparece como
-tick, acento e valor destacado, nunca como preenchimento grande.
+The number needs emphasis, and the brand forbids orange as a dominant surface. The
+`border-width-thick` 4px tick solves both: it marks the number without flooding the layout
+with orange. It is the same logic that governs every organism — `fire-orange` appears as a
+tick, an accent and a single highlighted value, never as a large fill.
 
-## Tipografia
+## Typography
 
-Valor em `display-l` 60px, ou `display-xl` 72px na variante de hero. Label em
-`hud-small` 12px caixa alta em `text-muted`, logo abaixo. O valor aceita nó, então uma
-palavra dentro dele pode ir em `text-accent` quando a frase pede.
+The value is `display-l` 60px, or `display-xl` 72px in the hero variant. The label is
+`hud-small` 12px uppercase in `text-muted`, directly below. The value accepts a node, so a
+single word inside it can go in `text-accent` when the phrase calls for it.
 
-## Uso
+## Use
 
-Dois a quatro por seção. Um Mission Stat sozinho vira um número sem contexto; mais de
-quatro vira dashboard, e a marca não é dashboard. Em grade, os ticks alinham à esquerda
-numa mesma linha vertical.
+Two to four per section. A lone Mission Stat is a number without context; more than four
+becomes a dashboard, and the brand is not a dashboard. In a grid, the ticks align left on
+one vertical line.
 
-## Consumo
+## Consumption
 
-O consumidor fornece o valor já formatado, com separador de milhar, e o label.
-O componente não formata número.
+The consumer provides the value already formatted, with a thousands separator, and the
+label. The component does not format numbers.

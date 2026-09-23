@@ -1,39 +1,38 @@
 # HUD Panel
 
-A assinatura do sistema. O leitura tática de "mission intel" que transforma estatística
-em algo que se opera.
+The system's signature. The tactical mission-intel readout that turns a statistic into
+something you operate.
 
-## Anatomia, em ordem de leitura
+## Anatomy, in reading order
 
-1. **Tick ao vivo** — barra de 2px em `surface-accent` no topo. É o sinal de que o
-   painel está vivo.
-2. **Cabeçalho** — um quadrado sólido de 8px em `fire-orange`, o título em `hud-xl`
-   caixa alta, e um badge de status opcional alinhado à direita.
-3. **Linhas `LABEL : VALUE`** — label em `hud-small` `text-muted`, valor em
-   `hud-default` `hud-text`, separadas por hairline `border-width-thin`.
+1. **Live tick** — a 2px bar in `surface-accent` on top. The signal that the panel is live.
+2. **Header** — an 8px solid square in `fire-orange`, the title in `hud-xl` uppercase, and
+   an optional status badge aligned right.
+3. **`LABEL : VALUE` rows** — the label in `hud-small` `text-muted`, the value in
+   `hud-default` `hud-text`, separated by a `border-width-thin` hairline.
 
-O painel usa `hud-background`, borda `border-accent` e `elevation-hud` — o brilho
-laranja é o que o distingue de um card comum.
+The panel uses `hud-background`, a `border-accent` border and `elevation-hud` — the orange
+glow is what sets it apart from an ordinary card.
 
-## `accent` na linha que importa
+## `accent` on the row that matters
 
-Uma linha marcada como `accent` renderiza o valor em `fire-orange`. Use em **um** valor
-por painel: normalmente o gospel access, o número que carrega a tensão da marca. Dois
-valores em laranja e nenhum se destaca.
+A row marked `accent` renders its value in `fire-orange`. Use it on **one** value per
+panel: usually gospel access, the number that carries the brand's tension. Two orange
+values and neither stands out.
 
-## Valor composto
+## Composed values
 
-O valor aceita qualquer nó, então um **Biome Badge** entra direto numa linha. Quando
-isso acontece, o badge alinha à direita como qualquer outro valor.
+The value accepts any node, so a **Biome Badge** drops straight into a row. When it does,
+the badge aligns right like any other value.
 
-## Gotcha de padding
+## Padding gotcha
 
-A linha carrega o próprio padding horizontal de `space-4`, para funcionar sozinha dentro
-do painel. Dentro de um container já com padding — o corpo do People Group Card, por
-exemplo — zere esse padding nas linhas, senão o label desalinha do conteúdo em volta.
-Todo o conteúdo do card alinha num único inset de `space-5` 20px.
+A row carries its own `space-4` horizontal padding so it works on its own inside the
+panel. Inside a container that is already padded — the People Group Card body, for
+example — zero that padding on the rows, or the label falls out of line with the content
+around it. All the card's content aligns to a single `space-5` 20px inset.
 
-## Consumo
+## Consumption
 
-O consumidor fornece título, status e os pares label/valor. O painel não impõe número
-de linhas; entre quatro e seis é onde ele lê melhor.
+The consumer provides the title, the status and the label/value pairs. The panel imposes
+no row count; four to six is where it reads best.

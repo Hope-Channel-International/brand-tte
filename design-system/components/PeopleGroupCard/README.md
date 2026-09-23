@@ -1,39 +1,38 @@
 # People Group Card
 
-O povo não alcançado como dossiê de campo. É o componente que carrega a ética da marca
-dentro da interface.
+The unreached people group as a field dossier. It is the component that carries the
+brand's ethics into the interface.
 
-## Anatomia
+## Anatomy
 
-**Área de mídia** — a fotografia, com as tags de status e bioma no topo e as coordenadas
-no rodapé. **Nome** em Mona Sans `h3`, com a região logo abaixo em `hud-small`.
-**Faixa de dados** — as linhas de HUD com população e gospel access. **Par de ações** —
-um `mobilize` e um `operate` lado a lado: "Pray now" e "View data".
+**Media area** — the photograph, with the status and biome tags at the top and the
+coordinates at the foot. **Name** in Mona Sans `h3`, with the region below in `hud-small`.
+**Data strip** — the HUD rows with population and gospel access. **Action pair** — one
+`mobilize` and one `operate` side by side: "Pray now" and "View data".
 
-Todo o conteúdo alinha num único inset de `space-5` 20px: overlay da mídia, corpo e
-linhas. As linhas de HUD precisam ter o padding horizontal zerado aqui, senão dobram
-com o do corpo.
+All the content aligns to a single `space-5` 20px inset: media overlay, body and rows. The
+HUD rows need their horizontal padding zeroed here, or it doubles with the body's.
 
-## Dignidade em vez de pena
+## Dignity over pity
 
-Sem fotografia, o fundo cai na **textura topográfica** da marca em
-`opacity-topographic`. **Nunca um retângulo cinza, nunca um ícone de imagem quebrada.**
-Um povo antigo não é um placeholder vazio. A textura é a posição da marca, e vale
-enquanto a fotografia real não chega — quando chega, entra no mesmo lugar sem mudar o
-resto do componente.
+With no photograph, the background falls back to the brand's **topographic texture** at
+`opacity-topographic`. **Never a grey rectangle, never a broken-image icon.** An ancient
+people is not an empty placeholder. The texture is the brand's position, and it holds
+until real photography arrives — when it does, it enters the same place without changing
+the rest of the component.
 
-## O par de ações não é decorativo
+## The action pair is not decorative
 
-Ele demonstra o eixo `intent` de Button funcionando em contexto: "Pray now" é a voz,
-em Mona Sans; "View data" é o instrumento, em Space Mono. Trocar as fontes aqui
-inverte o significado dos dois botões.
+It demonstrates Button's `intent` axis working in context: "Pray now" is the voice, in
+Mona Sans; "View data" is the instrument, in Space Mono. Swapping the typefaces here
+inverts the meaning of both buttons.
 
-## Ênfase
+## Emphasis
 
-Um valor em `text-accent` por card — normalmente o gospel access. Mesma disciplina do
+One value in `text-accent` per card — usually gospel access. The same discipline as the
 HUD Panel.
 
-## Consumo
+## Consumption
 
-O consumidor fornece nome, região, população, acesso, bioma, status, coordenadas e,
-quando existir, a imagem. Números já formatados.
+The consumer provides the name, region, population, access, biome, status, coordinates
+and, when it exists, the image. Numbers arrive already formatted.

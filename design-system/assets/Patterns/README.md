@@ -1,18 +1,18 @@
 # Patterns
 
-A textura topográfica é a assinatura visual da marca: curvas de nível em
-`fire-orange`, que sobre fundo escuro leem como contornos de fogo.
+The topographic texture is the brand's visual signature: contour lines in `fire-orange`,
+which on a dark ground read as contours of fire.
 
-| Arquivo | Uso |
+| File | Use |
 |---|---|
-| `pattern-simple.svg` | Malha aberta. Banda de seção, fundo de card. |
-| `pattern-tile.svg` | Densa e repetível. Superfície grande, fundo imersivo. |
+| `pattern-simple.svg` | An open mesh. Section band, card background. |
+| `pattern-tile.svg` | Dense and repeatable. Large surface, immersive background. |
 
-## A regra que não muda
+## The rule that does not change
 
-Sempre em `opacity-topographic`, ou seja `0.12`. Nunca em opacidade cheia — os dois
-arquivos são entregues em tinta cheia para que você controle a opacidade na camada,
-não no arquivo.
+Always at `opacity-topographic`, that is `0.12`. Never at full opacity — both files ship
+at full ink precisely so the opacity lives on the layer, under your control, and never
+baked into the file.
 
-É a textura que substitui a foto no People Group Card enquanto a fotografia real não
-existe. Nunca um retângulo cinza: dignidade em vez de pena.
+This is the texture that replaces the photograph in the People Group Card while real
+photography does not exist. Never a grey rectangle: dignity over pity.

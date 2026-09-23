@@ -1,33 +1,33 @@
 # Input
 
-O campo de texto. Altura `sizing-control-default` 44px, a mesma de Button e Select —
-é isso que faz "default" significar a mesma coisa em todo o sistema.
+The text field. Height `sizing-control-default` 44px, the same as Button and Select — that
+is what makes "default" mean the same thing across the system.
 
-## Forma
+## Form
 
-`radius-default` 0. Borda `border-width-thin` em `border-default` a 30% de opacidade,
-que vira `border-accent` no foco. Fundo transparente, para o campo herdar a superfície
-onde está — dentro de um painel de HUD ele desaparece no preto sem precisar de variante.
+`radius-default` 0. A `border-width-thin` border in `border-default` at 30% opacity, which
+turns `border-accent` on focus. A transparent background, so the field inherits whatever
+surface it sits on — inside a HUD panel it disappears into the black without needing a
+variant.
 
-## Tipografia
+## Typography
 
-Valor em `body-regular` 16px. **Nunca abaixo de 16px**: o Safari do iOS dá zoom ao focar
-um campo com fonte menor, e isso desloca o layout inteiro. O label é `hud-small` 12px
-caixa alta em `text-muted`.
+The value is `body-regular` 16px. **Never below 16px**: iOS Safari zooms when a field with
+a smaller font takes focus, and that shifts the whole layout. The label is `hud-small` 12px
+uppercase in `text-muted`.
 
-## Espaçamento
+## Spacing
 
-`space-2` 8px entre label e campo — colado, para lerem como uma peça. `space-6` 24px
-até o próximo label, para os campos não se fundirem.
+`space-2` 8px between label and field — tight, so they read as one piece. `space-6` 24px
+to the next label, so fields do not merge.
 
-## Estados
+## States
 
-Foco usa `border-accent` mais anel de 2px com offset de 2px. Desabilitado usa
-`opacity-disabled`. Inválido combina três canais: borda em `fire-orange`, ícone de
-alerta e mensagem em texto — **cor nunca é o único canal**.
+Focus uses `border-accent` plus a 2px ring at a 2px offset. Disabled uses
+`opacity-disabled`. Invalid combines three channels: a `fire-orange` border, an alert icon
+and a message in text — **color is never the only channel**.
 
-## Consumo
+## Consumption
 
-O consumidor fornece label, placeholder, valor e a mensagem de erro. Todo campo
-precisa de um `<label>` com `for` apontando para o `id` do input; placeholder não
-substitui label.
+The consumer provides the label, placeholder, value and error message. Every field needs a
+`<label>` whose `for` points at the input's `id`; a placeholder does not replace a label.

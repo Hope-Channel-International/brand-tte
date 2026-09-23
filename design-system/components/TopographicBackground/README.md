@@ -1,35 +1,35 @@
 # Topographic Background
 
-A camada de textura. Curvas de nível em `fire-orange` atrás de qualquer conteúdo.
+The texture layer. Contour lines in `fire-orange` behind any content.
 
-## A regra
+## The rule
 
-Sempre em `opacity-topographic`, ou seja `0.12`. Os arquivos em `assets/Patterns`
-são entregues em tinta cheia justamente para que a opacidade fique na camada, sob seu
-controle, e nunca embutida no SVG.
+Always at `opacity-topographic`, that is `0.12`. The files in `assets/Patterns` ship at
+full ink precisely so the opacity lives on the layer, under your control, and never baked
+into the SVG.
 
-Sobre `surface-dark`, a 12%, as curvas leem como contornos de fogo — a assinatura
-visual da marca. Acima disso viram ruído e comem a legibilidade do texto por cima;
-foi exatamente o que aconteceu quando este sistema foi montado em opacidade cheia.
+On `surface-dark`, at 12%, the contours read as contours of fire — the brand's visual
+signature. Above that they turn into noise and eat the legibility of any text on top; that
+is exactly what happened when this system was first assembled at full opacity.
 
-## Os dois arquivos
+## The two files
 
-`pattern-simple.svg` para banda de seção e fundo de card. `pattern-tile.svg`, mais densa
-e repetível, para superfície grande e fundo imersivo.
+`pattern-simple.svg` for a section band and a card background. `pattern-tile.svg`, denser
+and repeatable, for a large surface and an immersive background.
 
-## Implementação
+## Implementation
 
-A textura vai numa camada própria — um pseudo-elemento absoluto com `inset: 0` e a
-opacidade do token — e o conteúdo sobe para `z-index: 1`. Aplicar a opacidade no
-container inteiro apagaria o texto junto.
+The texture goes on its own layer — an absolutely positioned pseudo-element with
+`inset: 0` and the token's opacity — and the content rises to `z-index: 1`. Applying the
+opacity to the whole container would fade the text with it.
 
-`pointer-events: none` na camada, para a textura nunca interceptar clique.
+`pointer-events: none` on the layer, so the texture never intercepts a click.
 
-## Onde aparece
+## Where it appears
 
-Banda de seção, fundo do placeholder do People Group Card, fundo de hero e de cover.
-Nunca atrás de tabela ou de formulário: ali ela compete com o dado.
+Section bands, the People Group Card placeholder, hero and cover backgrounds. Never behind
+a table or a form: there it competes with the data.
 
-## Consumo
+## Consumption
 
-O consumidor fornece o conteúdo. O componente só lança a textura atrás dele.
+The consumer provides the content. The component only lays the texture behind it.

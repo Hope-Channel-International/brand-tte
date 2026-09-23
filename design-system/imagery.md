@@ -1,65 +1,65 @@
-# Imagem
+# Imagery
 
-Fotografia editorial de expedição. A alma da National Geographic, a atitude da
-Arc'teryx, a urgência de um despacho do campo.
+Editorial expedition photography. The soul of National Geographic, the attitude of
+Arc'teryx, the urgency of a dispatch from the field.
 
-## Os dois testes
+## The two tests
 
-Toda imagem passa pelos dois antes de existir.
+Every image passes both before it exists.
 
-**O teste do movimento.** Isso parece algo que um jovem adulto vestiria numa
-camiseta — ou parece um botão de doação? Se parece igreja, reprovou.
+**The Movement Test.** Does this look like something a young adult would wear on a
+t-shirt — or like a donation button? If it looks like church, it fails.
 
-**O teste do pulso.** Isso acelera o coração de quem vê? Tem que soar urgente e
-levemente desconfortável. Nunca reconfortante.
+**The Pulse Test.** Does this raise the viewer's heart rate? It should feel urgent and
+slightly unsettling. Never comforting.
 
-## As quatro camadas narrativas
+## The four narrative layers
 
-**01 · The Scale** — grande angular extrema, 16–24mm. A figura humana ocupa de 5% a
-15% do quadro; o ambiente domina. Faz a missão parecer impossível.
+**01 · The Scale** — extreme wide, 16–24mm. The human figure fills 5% to 15% of the frame;
+the environment dominates. Makes the mission feel impossible.
 
-**02 · The Stillness** — 50–85mm. O sujeito em foco absoluto contra o caos desfocado,
-olhos fechados em oração. A calma antes do avanço.
+**02 · The Stillness** — 50–85mm. The subject tack-sharp against blurred chaos, eyes closed
+in prayer. The calm before breakthrough.
 
-**03 · The POV** — 24–35mm na mão, primeira pessoa, motion blur aceito. Coloca quem
-vê dentro da missão.
+**03 · The POV** — 24–35mm handheld, first person, motion blur welcome. Places the viewer
+inside the mission.
 
-**04 · The HUD** — 85–135mm, retrato fechado com dados em Space Mono sobrepostos:
-TARGET, EST. POP, STATUS, ACCESS, BIOME, COORDS, GOSPEL ACCESS %. Humaniza a estatística.
+**04 · The HUD** — 85–135mm, tight portrait with Space Mono data overlaid: TARGET, EST.
+POP, STATUS, ACCESS, BIOME, COORDS, GOSPEL ACCESS %. Makes the statistic human.
 
-## Gradação de cor
+## Color grading
 
-Quente nas sombras, contida nas altas luzes, dessaturada de 15% a 25%. As sombras
-puxam âmbar ou teal profundo — nunca preto puro. Golden hour é a luz primária. Só
-luz natural. Grão de filme sempre presente, simulando Kodak Portra 400.
+Warm in the shadows, restrained in the highlights, desaturated 15% to 25%. Shadows lean
+amber or deep teal — never pure black. Golden hour is the primary light. Natural light
+only. Film grain always present, simulating Kodak Portra 400.
 
-Warm White `#F4F3F1` é o único branco em fotografia. Nenhuma foto TTE contém branco
-puro: a luz é sempre conquistada, "suja", real. Essa é a paleta de imagem, distinta da
-paleta de identidade — nunca confunda as duas.
+Warm White `#F4F3F1` is the only white in photography. No TTE photograph contains pure
+white: the light is always earned, "dirty", real. That is the imagery palette, distinct
+from the identity palette — never confuse the two.
 
-## Sempre
+## Always
 
-- Pessoas reais em contextos reais; dignidade acima de pena
-- Sobreposição topográfica presente, em `opacity-topographic`
-- Dados de HUD presentes, ao menos parciais
-- Uma palavra de ênfase em `fire-orange` no título
-- Luz natural, golden hour, grão de filme
+- Real people in real contexts; dignity over pity
+- Topographic overlay present, at `opacity-topographic`
+- HUD data present, at least partially
+- One emphasis word in `fire-orange` in the headline
+- Natural light, golden hour, film grain
 
-## Nunca
+## Never
 
-- Banco de imagem genérico ou pose montada
-- Luz de estúdio, ring light, filtro saturado
-- Clichê de "mãos levantadas" ou "cruz no pôr do sol"
-- Turismo de pobreza
-- Pessoas geradas por IA como imagem principal
-- Enquadramento de salvador ocidental
-- Preto puro nas sombras
+- Generic stock or staged poses
+- Studio light, ring light, oversaturated filters
+- "Hands raised" or "cross in sunset" clichés
+- Poverty tourism
+- AI-generated people as primary imagery
+- Western-savior framing
+- Pure black in the shadows
 
-## Os quatro portões de qualidade
+## The four quality gates
 
-Toda peça visual passa pelos quatro:
+Every visual asset passes all four:
 
-1. **Movement Test** — parece marca de lifestyle, não botão de doação.
-2. **Pulse Test** — acelera o coração; urgente, não reconfortante.
-3. **Mobilization Trigger** — faz a pessoa sentir "eu preciso orar / fazer algo".
-4. **Scroll-Stopper** — para o scroll em menos de 10 segundos.
+1. **Movement Test** — looks like a lifestyle brand, not a donation button.
+2. **Pulse Test** — raises the heart rate; urgent, not comforting.
+3. **Mobilization Trigger** — makes the viewer feel "I have to pray / do something".
+4. **Scroll-Stopper** — stops the scroll within 10 seconds.

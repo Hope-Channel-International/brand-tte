@@ -1,33 +1,32 @@
 # Biome Badge
 
-O bioma como tag de HUD, com a cor contida.
+The biome as a HUD tag, with the color contained.
 
-## A regra que este componente existe para impor
+## The rule this component exists to enforce
 
-As quatro cores de bioma são **acento secundário**. Elas aparecem como um swatch de 9px
-dentro da tag — nunca como preenchimento da tag, nunca como borda, nunca como rival do
-`fire-orange`. Um Biome Badge preenchido de verde floresta quebra a hierarquia de cor
-da marca inteira.
+The four biome colors are a **secondary accent**. They appear as a 9px swatch inside the
+tag — never as the tag's fill, never as its border, never as a rival to `fire-orange`. A
+Biome Badge filled with forest green breaks the brand's entire color hierarchy.
 
-Além disso, as quatro estão marcadas como **pendentes de aprovação final** na origem
-dos tokens. Contê-las num swatch é também o que torna uma futura mudança de valor barata.
+They are also marked **pending final approval** in the source tokens. Containing them in a
+swatch is also what makes a future change of value cheap.
 
-## Os quatro biomas
+## The four biomes
 
-| Token | Bioma |
+| Token | Biome |
 |---|---|
-| `biome-desert` | Desert / Árido |
-| `biome-arctic` | Arctic / Congelado |
+| `biome-desert` | Desert / Arid |
+| `biome-arctic` | Arctic / Frozen |
 | `biome-city` | Urban / City |
 | `biome-forest` | Tropical / Forest |
 
-## Cor nunca é o único canal
+## Color is never the only channel
 
-O nome do bioma aparece por extenso ao lado do swatch, sempre. Quem não distingue
-`biome-desert` de `biome-forest` lê "Desert" e "Forest" e resolve. O swatch é reforço,
-não informação.
+The biome's name always appears in full beside the swatch. Anyone who cannot tell
+`biome-desert` from `biome-forest` reads "Desert" and "Forest" and is fine. The swatch is
+reinforcement, not information.
 
-## Consumo
+## Consumption
 
-O consumidor fornece o nome do bioma. O componente mapeia nome para token; um bioma
-fora dos quatro cai em neutro, sem swatch.
+The consumer provides the biome name. The component maps the name to a token; a biome
+outside the four falls back to neutral, with no swatch.

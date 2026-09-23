@@ -1,29 +1,29 @@
 # Badge
 
-A tag de HUD. Um rótulo curto de status, sempre em Space Mono caixa alta, sempre com
+The HUD tag. A short status label, always Space Mono uppercase, always
 `radius-default` 0.
 
-## Tons
+## Tones
 
-`neutral` usa `border-default` em baixa opacidade sobre `surface` — o default, para
-status sem carga. `accent` usa `border-accent` e `text-accent` — para o status que
-importa. `solid` preenche com `surface-accent` e usa label claro, reservado para
-"ao vivo" e contagens que precisam saltar.
+`neutral` uses `border-default` at low opacity over `surface` — the default, for a status
+without weight. `accent` uses `border-accent` and `text-accent` — for the status that
+matters. `solid` fills with `surface-accent` and takes a light label, reserved for "live"
+and counts that need to jump.
 
-## Regras
+## Rules
 
-O badge abraça o próprio conteúdo. Se ele ocupa a linha inteira, virou alerta ou
-banner, e não é mais badge.
+A badge hugs its own content. If it fills the whole line, it has become an alert or a
+banner, and it is no longer a badge.
 
-Cor nunca é o único canal. Quando o badge comunica um estado, o texto já diz qual é —
-`UNREACHED`, `RESTRICTED`, `LIVE`. Quando entra um swatch de bioma, ele é a segunda
-informação, não a única: veja **Biome Badge**.
+Color is never the only channel. When a badge communicates a state, the text already says
+which one — `UNREACHED`, `RESTRICTED`, `LIVE`. When a biome swatch enters, it is the
+second piece of information, never the only one: see **Biome Badge**.
 
-## Tipografia
+## Typography
 
-`mono-label` 12px Bold com tracking 3%, ou `hud-micro` 10px quando o badge vive dentro
-de outro componente denso. Nunca Mona Sans: um badge é dado, não voz.
+`mono-label` 12px Bold with 3% tracking, or `hud-micro` 10px when the badge lives inside
+another dense component. Never Mona Sans: a badge is data, not voice.
 
-## Consumo
+## Consumption
 
-O consumidor fornece o texto. Mantenha-o em uma ou duas palavras; um badge não é frase.
+The consumer provides the text. Keep it to one or two words; a badge is not a sentence.

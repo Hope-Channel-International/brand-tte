@@ -1,128 +1,130 @@
 # To The Ends of The Earth
 
-TTE mobiliza uma comunidade global de intercessores e investidores pelos povos
-menos alcançados do planeta. Sub-marca da Hope Channel International, arquétipo
-Explorer × Hero, motor teológico em Atos 1:8.
+TTE mobilizes a global community of prayer partners and investors for the least reached
+peoples on the planet. A sub-brand of Hope Channel International, archetype Explorer ×
+Hero, theological engine Acts 1:8.
 
-A marca vive numa tensão: a estatística parece impossível — 3,6 bilhões de pessoas
-sem acesso ao evangelho — e a teologia diz que o desfecho é inevitável (Mateus 24:14).
-Tudo o que este sistema produz precisa carregar essa tensão. A sensação a provocar é
-intensa, crua e espiritualmente pesada: tirar a pessoa da segurança da tela e colocá-la
-na linha de frente do impossível.
+The brand lives in a tension: the statistic feels impossible — 3.6 billion people with no
+access to the gospel — and the theology says the outcome is inevitable (Matthew 24:14).
+Everything this system produces has to carry that tension. The feeling to produce is
+intense, gritty and spiritually weighty: take the viewer out of the safety of their screen
+and put them on the front line of the impossible.
 
-## As seis regras que nunca se quebram
+## The six rules that never break
 
-1. **Cor.** `fire-orange` é ênfase máxima — CTA, acento do wordmark, asa do ícone,
-   label de HUD. Nunca fundo dominante num layout longo. `black` é o fundo imersivo
-   padrão. `white` é para layout editorial e texto sobre escuro.
-2. **Tipografia.** Só Mona Sans e Space Mono. Nenhuma outra, jamais. Mona Sans é
-   CAIXA ALTA em todo uso display.
-3. **Raio.** `radius-default` é `0px` em tudo. A marca é angular e tática. A única
-   exceção é `radius-full`, para avatar circular e radio button.
-4. **Tokens, nunca hex solto.** Toda decisão de cor e tipo referencia um token.
-5. **Duas paletas distintas.** Identidade (logo, tipo, UI): branco é `#FFFFFF` puro.
-   Imagem (fotografia): branco é Warm White `#F4F3F1`. Nenhuma foto TTE contém
-   branco puro — a luz é sempre conquistada, suja, real.
-6. **Lockup Hope Channel** presente em todo material oficial, como co-marca ou como
-   endosso "Powered by Hope Channel".
+1. **Color.** `fire-orange` is maximum emphasis — CTAs, the wordmark accent, the icon's
+   wing, HUD labels. Never a dominant background on a long layout. `black` is the default
+   immersive background. `white` is for editorial layouts and text on dark.
+2. **Typography.** Only Mona Sans and Space Mono. No other typeface, ever. Mona Sans is
+   UPPERCASE in all display use.
+3. **Radius.** `radius-default` is `0px` on everything. The brand is angular and tactical.
+   The one exception is `radius-full`, for circular avatars and radio buttons.
+4. **Tokens, never raw hex.** Every color and type decision references a token.
+5. **Two distinct palettes.** Identity (logo, type, UI): white is pure `#FFFFFF`.
+   Imagery (photography): white is Warm White `#F4F3F1`. No TTE photograph contains pure
+   white — the light is always earned, dirty, real.
+6. **Hope Channel lockup** present on all official material, as a co-brand or as the
+   "Powered by Hope Channel" endorsement.
 
-## Fundamentos de conteúdo
+## Content fundamentals
 
-### A voz
-Urgente, ancorada na Escritura, crua, dignificante, mobilizadora, centrada no
-Espírito, corajosa. Se TTE fosse uma pessoa: um operador de campo veterano, poeira
-nas botas e fogo nas orações, que cita a Escritura como um soldado cita coordenadas —
-com precisão, de memória, porque vidas dependem disso.
+### The voice
+Urgent, anchored in Scripture, gritty, dignifying, mobilizing, Spirit-centered,
+courageous. If TTE were a person: a seasoned field operative, dust on their boots and fire
+in their prayers, who quotes Scripture the way a soldier quotes coordinates — precisely,
+from memory, because lives depend on it.
 
-A seção **Voz** traz a tabela completa de "somos / não somos", a terminologia
-obrigatória e as onze regras editoriais.
+The **Voice** section carries the full we-are / we-are-not table, the required terminology
+and the eleven editorial rules.
 
-### Os cinco pilares de mensagem
-1. **A certeza profética** — Mateus 24:14 é decreto real. O evangelho alcançará todo povo.
-2. **A tensão impossível** — a estatística contra a profecia.
-3. **Oração como autoridade delegada** — a intercessão dá a Deus terreno legítimo para agir.
-4. **O Espírito Santo como fonte de poder** — o centro de gravidade de todo conteúdo.
-5. **Pés belos em estradas digitais** — um governo expulsa um missionário; não detém um vídeo.
+### The five message pillars
+1. **The prophetic certainty** — Matthew 24:14 is a royal decree. The gospel will reach
+   every people group.
+2. **The impossible tension** — the statistic against the prophecy.
+3. **Prayer as delegated authority** — intercession gives God legitimate ground to act.
+4. **The Holy Spirit as power source** — the center of gravity of all content.
+5. **Beautiful feet on digital roads** — a government can expel a missionary; it cannot
+   stop a video.
 
-### Regras editoriais que valem sempre
-Nunca use travessão. Nunca use estrutura negativa ("não somos X, somos Y") — enquadre
-no positivo. Toda frase ganha o próprio espaço. Reforce a teologia com capítulo e
-versículo. Termine com micro-compromisso: Pray, Give, Learn.
+### Editorial rules that always apply
+Never use emdashes. Never use negative sentence structures ("we're not X, we're Y") —
+frame positively. Every sentence earns its place. Strengthen theology with chapter and
+verse. Close with a micro-commitment: Pray, Give, Learn.
 
-## Fundamentos visuais
+## Visual foundations
 
-### Cor
-A paleta primária tem três cores e um neutro. Os quatro acentos de bioma são
-secundários e estão **pendentes de aprovação final** na origem: aparecem como swatch
-dentro de uma tag, nunca como preenchimento nem como rival do `fire-orange`.
+### Color
+The primary palette is three colors and a neutral. The four biome accents are secondary
+and are marked **pending final approval** upstream: they appear as a swatch inside a tag,
+never as a fill and never as a rival to `fire-orange`.
 
-Contraste, medido dos valores reais:
+Contrast, measured from the real values:
 
-| Par | Razão | Texto normal | Texto grande / não-texto |
+| Pair | Ratio | Normal text | Large text / non-text |
 |---|---|---|---|
-| `ink` sobre `surface` (os dois temas) | 14,85:1 | passa | passa |
-| `fire-orange` sobre `black` | 4,64:1 | passa | passa |
-| `white` sobre `fire-orange` | 3,20:1 | **reprova** | passa |
-| `black` sobre `fire-orange` | 4,64:1 | passa | passa |
-| `grey` sobre `black` | 4,90:1 | passa | passa |
-| `grey` sobre `white` | 3,03:1 | **reprova** | passa |
+| `ink` on `surface` (both themes) | 14.85:1 | passes | passes |
+| `fire-orange` on `black` | 4.64:1 | passes | passes |
+| `white` on `fire-orange` | 3.20:1 | **fails** | passes |
+| `black` on `fire-orange` | 4.64:1 | passes | passes |
+| `grey` on `black` | 4.90:1 | passes | passes |
+| `grey` on `white` | 3.03:1 | **fails** | passes |
 
-O CTA primário da marca é preenchimento `fire-orange` com label `white` — 3,20:1.
-A spec de Button registra isso como follow-up em aberto e aponta a saída: label
-escuro sobre laranja dá 4,64:1. **O par que reprova foi mantido porque é a decisão
-de marca aprovada**; a nota de cada token diz onde cada cor é segura.
+The brand's primary CTA is a `fire-orange` fill with a `white` label — 3.20:1. The Button
+spec records this as an open follow-up and names the way out: a dark label on orange
+measures 4.64:1. **The failing pair was kept because it is the approved brand decision**;
+each token's note says where that color is safe.
 
-### Tipografia
-Mona Sans mobiliza, Space Mono opera. Mona Sans é a voz — display, headings,
-os momentos emocionais. Space Mono é o instrumento — HUD, dados, coordenadas,
-controles. Essa divisão desce até o botão, no eixo `intent`.
+### Typography
+Mona Sans mobilizes, Space Mono operates. Mona Sans is the voice — display, headings, the
+emotional moments. Space Mono is the instrument — HUD, data, coordinates, controls. That
+split runs all the way down to the button, on the `intent` axis.
 
-A única exceção documentada à caixa alta do Mona Sans são os estilos `mona-body` e
-`mona-body-sm`, em sentence case, para leitura longa.
+The only documented exception to Mona Sans uppercase is `mona-body` and `mona-body-sm`, in
+sentence case, for longer reading.
 
-Entrelinha abaixo de 100% no display é intencional: cria um bloco editorial compacto.
-Tracking largo no Space Mono é intencional: reforça a leitura de painel de dados.
+Line height below 100% in display is intentional: it makes a compact editorial block.
+Wide tracking in Space Mono is intentional: it reinforces the data-readout feel.
 
-### Espaço, forma e elevação
-Escala base 4px, de `space-0` a `space-32`. Margem de página: `space-4` no mobile,
-`space-8` no tablet, `space-16` no desktop; `space-24` entre seções.
+### Space, form and elevation
+A 4px base scale, from `space-0` to `space-32`. Page margin: `space-4` on mobile,
+`space-8` on tablet, `space-16` on desktop; `space-24` between sections.
 
-Uma única escala de altura governa todo controle interativo — `sizing-control-sm` 36px,
-`sizing-control-default` 44px, `sizing-control-lg` 56px — para que "default" signifique
-a mesma coisa em Button, Input e Select.
+One height scale governs every interactive control — `sizing-control-sm` 36px,
+`sizing-control-default` 44px, `sizing-control-lg` 56px — so that "default" means the same
+thing in Button, Input and Select.
 
-Borda é o padrão; sombra é exceção, só quando o elemento flutua sobre outro plano.
-`elevation-hud` é o brilho laranja que assina o painel de HUD.
+A border is the default; a shadow is the exception, used only when an element floats above
+another plane. `elevation-hud` is the orange glow that signs the HUD panel.
 
-### Iconografia
-O símbolo da marca é um pássaro em voo: pomba (Espírito Santo) fundida com chama
-(Pentecostes). Corpo em `black`, asa definidora em `fire-orange`, orientada para a
-frente e para cima. Quatro variantes no grupo de assets **Logos**, sob o prefixo `mark-`.
+### Iconography
+The brand's symbol is a bird in flight: a dove (the Holy Spirit) fused with a flame
+(Pentecost). Body in `black`, defining wing in `fire-orange`, oriented forward and upward.
+Four variants in the **Logos** asset group, under the `mark-` prefix.
 
-Ícones de interface são **Lucide**, com os terminais arredondados preservados — é a
-exceção de raio documentada do sistema. Ícone sobre claro usa `icon-dark`; sobre
-escuro, `icon-light`; ícone de ação usa `icon-primary`.
+Interface icons are **Lucide**, with their rounded terminals preserved — the system's
+documented radius exception. An icon on light uses `icon-dark`; on dark, `icon-light`; an
+action icon uses `icon-primary`.
 
-Clearspace do logo = altura do "T" do wordmark. Logo branco sobre escuro ou
-fotografia; logo preto sobre claro. Nunca distorcer, rotacionar, recolorir fora das
-variantes aprovadas, nem separar o ícone do wordmark num lockup combinado.
+Logo clearspace equals the height of the "T" in the wordmark. White logo on dark or
+photography; black logo on light. Never distort, rotate, recolor outside the approved
+variants, or separate the icon from the wordmark in a combined lockup.
 
-## Imagem
+## Imagery
 
-Fotografia editorial de expedição: a alma da National Geographic, a atitude da
-Arc'teryx, a urgência de um despacho do campo. Quatro camadas narrativas — The Scale,
-The Stillness, The POV, The HUD. A seção **Imagem** traz a especificação completa,
-a gradação de cor e as listas de sempre/nunca.
+Editorial expedition photography: the soul of National Geographic, the attitude of
+Arc'teryx, the urgency of a dispatch from the field. Four narrative layers — The Scale,
+The Stillness, The POV, The HUD. The **Imagery** section carries the full specification,
+the color grading and the always / never lists.
 
-Toda peça visual passa por quatro portões antes de existir: Movement Test, Pulse Test,
-Mobilization Trigger e Scroll-Stopper.
+Every visual asset passes four gates before it exists: Movement Test, Pulse Test,
+Mobilization Trigger and Scroll-Stopper.
 
-## Como usar este sistema
+## How to use this system
 
-Comece pelos tokens. Nenhum componente define cor, tamanho, espaço ou forma fora
-deles. Os componentes abaixo mostram o comportamento de cada primitiva e dos cinco
-organismos que só existem nesta marca: HUD Panel, People Group Card, Mission Stat,
-Biome Badge e Topographic Background.
+Start with the tokens. No component defines a color, size, space or shape outside them.
+The components below show how each primitive behaves, and the five organisms that exist
+only in this brand: HUD Panel, People Group Card, Mission Stat, Biome Badge and
+Topographic Background.
 
-Fonte da verdade: `tte-brand-system`, e o Figma em
+Source of truth: `tte-brand-system`, and Figma at
 `figma.com/design/QJpddccb8biAnsDiSKjcNf/To-The-Ends-of-The-Earth`.

@@ -1,12 +1,12 @@
 /**
- * Valida os pares de cor da TTE contra o WCAG 2.1, lendo os valores reais
- * de design-system/tokens.json (a fonte da verdade publicada).
+ * Validates TTE's color pairs against WCAG 2.1, reading the real values from
+ * design-system/tokens.json (the published source of truth).
  *
- * Limiares: 4.5:1 texto normal | 3:1 texto grande (>=24px, ou negrito >=18.66px),
- * borda, icone e anel de foco.
+ * Thresholds: 4.5:1 normal text | 3:1 large text (>=24px, or bold >=18.66px),
+ * borders, icons and focus rings.
  *
- * Alguns pares REPROVAM de proposito: sao decisoes de marca aprovadas.
- * O script marca cada um como esperado e so falha em regressao inesperada.
+ * Some pairs FAIL on purpose: they are approved brand decisions. The script marks
+ * each of those as expected and only fails on an unexpected regression.
  */
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
@@ -18,11 +18,11 @@ const tokens = JSON.parse(readFileSync(resolve(ROOT, "design-system/tokens.json"
 const first = tokens.color.themes[0].id;
 const byName = new Map(tokens.color.tokens.map((t) => [t.name, t]));
 
-/** Resolve alias `{outro-token}` e escolhe o valor do tema. */
+/** Resolves an `{other-token}` alias and picks the theme's value. */
 function value(name, theme, depth = 0) {
-  if (depth > 16) throw new Error(`cadeia de alias longa demais em ${name}`);
+  if (depth > 16) throw new Error(`alias chain too deep at ${name}`);
   const tok = byName.get(name);
-  if (!tok) throw new Error(`token inexistente: ${name}`);
+  if (!tok) throw new Error(`unknown token: ${name}`);
   const raw = typeof tok.value === "string" ? tok.value : (tok.value[theme] ?? tok.value[first]);
   const m = /^\{(.+)\}$/.exec(raw);
   return m ? value(m[1], theme, depth + 1) : raw;
@@ -39,38 +39,38 @@ function contrast(a, b) {
   return (x + 0.05) / (y + 0.05);
 }
 
-/** [rotulo, token de frente, token de fundo, limiar, esperado] */
+/** [label, foreground token, background token, threshold, expectation] */
 const PAIRS = [
-  ["ink sobre surface",              "ink",           "surface",        4.5, "pass"],
-  ["ink-muted sobre surface",        "ink-muted",     "surface",        4.5, "depende do tema"],
-  ["text-inverted sobre surface-dark","text-inverted","surface-dark",   4.5, "pass"],
-  ["text-default sobre surface-light","text-default", "surface-light",  4.5, "pass"],
-  ["hud-accent sobre hud-background","hud-accent",    "hud-background", 4.5, "pass"],
-  ["hud-text sobre hud-background",  "hud-text",      "hud-background", 4.5, "pass"],
-  ["text-muted sobre surface-dark",  "text-muted",    "surface-dark",   4.5, "pass"],
-  ["text-muted sobre surface-light", "text-muted",    "surface-light",  4.5, "FALHA CONHECIDA"],
-  ["white sobre surface-accent",     "white",         "surface-accent", 4.5, "FALHA CONHECIDA"],
-  ["black sobre surface-accent",     "black",         "surface-accent", 4.5, "pass"],
-  ["text-accent sobre surface-light","text-accent",   "surface-light",  4.5, "FALHA CONHECIDA"],
-  // 3:1 — borda, icone, foco
-  ["border-accent sobre surface-dark", "border-accent", "surface-dark",  3, "pass"],
-  ["border-accent sobre surface-light","border-accent", "surface-light", 3, "pass"],
-  ["border-default sobre surface",     "border-default","surface",       3, "pass"],
-  ["icon-primary sobre surface-dark",  "icon-primary",  "surface-dark",  3, "pass"],
+  ["ink on surface",                 "ink",           "surface",        4.5, "pass"],
+  ["ink-muted on surface",           "ink-muted",     "surface",        4.5, "theme dependent"],
+  ["text-inverted on surface-dark",  "text-inverted", "surface-dark",   4.5, "pass"],
+  ["text-default on surface-light",  "text-default",  "surface-light",  4.5, "pass"],
+  ["hud-accent on hud-background",   "hud-accent",    "hud-background", 4.5, "pass"],
+  ["hud-text on hud-background",     "hud-text",      "hud-background", 4.5, "pass"],
+  ["text-muted on surface-dark",     "text-muted",    "surface-dark",   4.5, "pass"],
+  ["text-muted on surface-light",    "text-muted",    "surface-light",  4.5, "KNOWN FAILURE"],
+  ["white on surface-accent",        "white",         "surface-accent", 4.5, "KNOWN FAILURE"],
+  ["black on surface-accent",        "black",         "surface-accent", 4.5, "pass"],
+  ["text-accent on surface-light",   "text-accent",   "surface-light",  4.5, "KNOWN FAILURE"],
+  // 3:1 — borders, icons, focus rings
+  ["border-accent on surface-dark",    "border-accent", "surface-dark",  3, "pass"],
+  ["border-accent on surface-light",   "border-accent", "surface-light", 3, "pass"],
+  ["border-default on surface",        "border-default","surface",       3, "pass"],
+  ["icon-primary on surface-dark",     "icon-primary",  "surface-dark",  3, "pass"],
 ];
 
 const KNOWN = new Set([
-  "white sobre surface-accent",        // CTA primario: decisao de marca, 3,20:1
-  "text-accent sobre surface-light",   // laranja sobre branco: so display/nao-texto
-  "text-muted sobre surface-light",    // grey sobre branco: so sobre escuro
-  "ink-muted sobre surface",           // o mesmo grey, pelo par tematico: reprova so no tema claro
+  "white on surface-accent",        // primary CTA: brand decision, 3.20:1
+  "text-accent on surface-light",   // orange on white: display and non-text only
+  "text-muted on surface-light",    // grey on white: keep it on dark grounds
+  "ink-muted on surface",           // the same grey, via the theme pair: fails in the light theme only
 ]);
 
 let regressions = 0;
 let knownFails = 0;
 
 for (const theme of tokens.color.themes.map((t) => t.id)) {
-  console.log(`\n  tema ${theme}`);
+  console.log(`\n  theme ${theme}`);
   console.log("  " + "-".repeat(76));
   for (const [label, fgTok, bgTok, min] of PAIRS) {
     const fg = value(fgTok, theme);
@@ -80,8 +80,8 @@ for (const theme of tokens.color.themes.map((t) => t.id)) {
     const known = KNOWN.has(label);
     let mark;
     if (ok) mark = "PASS";
-    else if (known) { mark = "ESPERADO"; knownFails++; }
-    else { mark = "REGRESSAO"; regressions++; }
+    else if (known) { mark = "EXPECTED"; knownFails++; }
+    else { mark = "REGRESSION"; regressions++; }
     console.log(
       `  ${mark.padEnd(10)} ${label.padEnd(34)} ${r.toFixed(2).padStart(6)}:1  (min ${min})  ${fg} / ${bg}`,
     );
@@ -90,7 +90,7 @@ for (const theme of tokens.color.themes.map((t) => t.id)) {
 
 console.log();
 if (regressions > 0) {
-  console.error(`  ${regressions} regressao(oes) de contraste: pares que deveriam passar e nao passam.\n`);
+  console.error(`  ${regressions} contrast regression(s): pairs that should pass and do not.\n`);
   process.exit(1);
 }
-console.log(`  Sem regressoes. ${knownFails} reprovacao(oes) esperada(s), todas decisoes de marca documentadas.\n`);
+console.log(`  No regressions. ${knownFails} expected failure(s), all documented brand decisions.\n`);

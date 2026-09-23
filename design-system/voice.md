@@ -1,65 +1,65 @@
-# Voz
+# Voice
 
-A voz é constante em todo canal. O tom flexiona por contexto.
+The voice is constant across every channel. The tone flexes by context.
 
-## Somos / Não somos
+## We are / We are not
 
-| Somos | Não somos |
+| We are | We are not |
 |---|---|
-| **Urgentes** — cada frase inclina para a frente, como se 3,6 bilhões de destinos eternos dependessem do que acontece agora | **Em pânico ou manipuladores** — nunca culpa, nunca urgência fabricada; a urgência real fala por si |
-| **Teologicamente ancorados** — toda afirmação com capítulo e versículo; preciso, adventista, escatológico | **Pregadores ou acadêmicos** — teologia como arma de clareza, nunca como aula |
-| **Crus e autênticos** — poeira na lente antes do polimento de estúdio | **Amadores ou descuidados** — a aspereza é deliberada, executada em qualidade Netflix |
-| **Dignificantes** — os não alcançados como culturas antigas e orgulhosas, dignas de respeito | **Piedosos ou condescendentes** — nunca pena de pobreza, nunca reduzir um povo a uma história triste |
-| **Mobilizadores** — toda peça termina com um caminho claro de ação | **Passivos ou meramente informativos** — um motor de mobilização, nunca um arquivo documental |
-| **Centrados no Espírito** — o Espírito Santo é o protagonista e a fonte de poder | **Centrados no humano** — celebramos o trabalho anônimo e invisível dos intercessores |
-| **Corajosos** — a linguagem da fronteira, da convicção, do risco santo | **Imprudentes ou levianos** — a coragem serve à missão, nunca romantiza o perigo |
+| **Urgent** — every sentence leans forward, as if 3.6 billion eternal destinies depend on what happens next | **Panicked or manipulative** — never guilt-trip, never manufacture urgency; the real urgency speaks for itself |
+| **Theologically grounded** — every claim anchored in chapter and verse; precise, Adventist, eschatological | **Preachy or academic** — theology as a weapon of clarity, never a lecture |
+| **Gritty and authentic** — dust on the lens over studio polish | **Low-budget or careless** — the grit is deliberate, executed at Netflix quality |
+| **Dignifying** — the unreached portrayed as proud, ancient cultures worthy of respect | **Pitying or patronizing** — never poverty pity, never reduce a people group to a sob story |
+| **Mobilizing** — every piece ends with a clear path to action | **Passive or merely informational** — a mobilization engine, never a documentary archive |
+| **Spirit-centered** — the Holy Spirit is the protagonist and the power source | **Human-centered** — we celebrate the anonymous, invisible work of intercessors |
+| **Courageous** — the language of frontier, conviction, holy risk | **Reckless or flippant** — courage serves the mission, never romanticizes danger |
 
-## Terminologia
+## Terminology
 
-| Use | Em vez de |
+| Use | Instead of |
 |---|---|
-| Prayer Partner | supporter, prayer warrior (em uso formal) |
+| Prayer Partner | supporter, prayer warrior (in formal use) |
 | Mission Partner | donor, giver, contributor |
 | the gospel of Jesus | the name of Jesus |
 | unreached people groups | lost people, the unsaved, pagans |
 | spiritual biomes | mission fields, target areas |
-| delegated authority | prayer power, spiritual warfare (genérico) |
+| delegated authority | prayer power, spiritual warfare (generic) |
 | the midnight cry | end-times message |
 | investment, partnership | charity, charitable |
 | campaign | crusade |
-| nomear a região | third world |
+| name the region | third world |
 
-"Targets" para pessoas só dentro da estética HUD/tática ("TARGET: TAJIK"), onde a
-metáfora é deliberada e dignificante. "Lost souls" nunca — tira a dignidade.
+"Targets" for people only inside the HUD / tactical aesthetic ("TARGET: TAJIK"), where the
+metaphor is deliberate and dignifying. Never "lost souls" — it strips dignity.
 
-## As onze regras editoriais
+## The eleven editorial rules
 
-1. Nunca use travessão (emdash).
-2. Nunca use estrutura negativa ("não somos X, somos Y"). Enquadre sempre no positivo.
-3. Não enrole. Toda frase ganha o próprio espaço.
-4. Varie o ritmo. Evite estrutura formulaica de parágrafo.
-5. Reforce a teologia com referência direta à Escritura, capítulo e versículo.
-6. Use "gospel of Jesus" em vez de "name of Jesus" para os não alcançados.
-7. Escreva para doador sofisticado ("further reduces" em vez de "reduces").
-8. Feche com profundidade teológica ("gratitude for His grace").
-9. Mantenha o tom pessoal, não institucional.
-10. Use Problema-Agitação-Solução em comunicação com doador.
-11. Leve à ação com micro-compromisso em toda peça.
+1. Never use emdashes.
+2. Never use negative sentence structures ("we're not X, we're Y"). Always frame positively.
+3. Do not waffle. Every sentence earns its place.
+4. Vary the rhythm. Avoid formulaic paragraph structures.
+5. Strengthen theology with direct Scripture references, chapter and verse.
+6. Use "gospel of Jesus" rather than "name of Jesus" for the unreached.
+7. Write for sophisticated donors ("further reduces" rather than "reduces").
+8. Close with theological depth ("gratitude for His grace").
+9. Keep the tone personal, not institutional.
+10. Use Problem-Agitate-Solution for donor communications.
+11. Lead to action with a micro-commitment in every piece.
 
-## Tom por contexto
+## Tone by context
 
-| Contexto | Formalidade | Energia | Princípio |
+| Context | Formality | Energy | Principle |
 |---|---|---|---|
-| Podcast | Média | Alta | Imerja no campo. Sinta a poeira e o peso. |
-| Social short-form | Baixa-média | Muito alta | Para o scroll em 10 segundos. Uma imagem, uma linha, um povo. |
-| Apelo de doação (oração) | Média | Alta | Problema-Agitação-Solução. Resolva com oração como autoridade delegada. |
-| Apelo de doação (missão) | Média-alta | Média-alta | Convite conduzido pelo Espírito. Nunca culpa. |
-| Guia de oração | Média | Calorosa-intensa | Profundidade teológica com calor pastoral. |
-| Landing / web | Média | Alta | Fisgue rápido. Converta em micro-compromisso. |
-| Documentário | Alta | Controlada | Cinematográfico. O visual carrega o peso; narração escassa e profética. |
-| Relatório a parceiros | Média-alta | Média | Gratidão ancorada em teologia. |
+| Podcast | Medium | High | Immerse in the field. Feel the dust and the weight. |
+| Social short-form | Low-medium | Very high | Stop the scroll in 10 seconds. One image, one line, one people group. |
+| Donor appeal (prayer) | Medium | High | Problem-Agitate-Solution. Resolve with prayer as delegated authority. |
+| Donor appeal (mission) | Medium-high | Medium-high | A Spirit-led invitation. Never guilt. |
+| Prayer guide | Medium | Warm-intense | Theological depth with pastoral warmth. |
+| Landing / web | Medium | High | Hook fast. Convert to a micro-commitment. |
+| Documentary | High | Controlled | Cinematic. Let the visuals carry the weight; narration sparse and prophetic. |
+| Partner report | Medium-high | Medium | Gratitude anchored in theology. |
 
-## Abertura modelo, no estilo HUD
+## Model opener, HUD style
 
 "Thirty-three degrees north, sixty-five degrees east. The Tajik people. Twelve million
 souls. Gospel access: zero point one percent. Status: unreached."
