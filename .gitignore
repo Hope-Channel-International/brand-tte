@@ -3,3 +3,7 @@
 .env.*
 !.env.example
 node_modules/
+
+# build/ holds this project's generator, not build output.
+# The global gitignore excludes build/ — re-include it here.
+!build/
