@@ -1,0 +1,35 @@
+<!-- @dsCard group="Data display" height=170 subtitle="Neutral, accent, solid — sempre Space Mono caixa alta" -->
+<style>
+  body { margin: 0; padding: 20px; background: var(--surface); color: var(--ink); }
+  .cap { font-family: "Space Mono", monospace; font-size: 10px; letter-spacing: .09em;
+         text-transform: uppercase; color: var(--fire-orange); margin-bottom: 10px; }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 18px; }
+  .row:last-child { margin-bottom: 0; }
+  .badge { display: inline-flex; align-items: center; gap: var(--space-1);
+           padding: var(--space-1) var(--space-2);
+           border: var(--border-width-thin) solid transparent;
+           border-radius: var(--radius-default);
+           font-family: "Space Mono", monospace; font-size: 10px; font-weight: 700;
+           letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; }
+  .neutral { border-color: color-mix(in srgb, var(--ink) 22%, transparent); color: var(--ink); }
+  .accent  { border-color: var(--border-accent); color: var(--text-accent); }
+  .solid   { background: var(--surface-accent); border-color: var(--surface-accent); color: var(--white); }
+  .sw { width: 9px; height: 9px; flex: none; }
+</style>
+
+<div class="cap">tons</div>
+<div class="row">
+  <span class="badge neutral">Draft</span>
+  <span class="badge neutral">Restricted</span>
+  <span class="badge accent">Unreached</span>
+  <span class="badge accent">Priority</span>
+  <span class="badge solid">Live</span>
+</div>
+
+<div class="cap">com swatch de bioma — a cor é o segundo canal, o texto é o primeiro</div>
+<div class="row">
+  <span class="badge neutral"><i class="sw" style="background:var(--biome-desert)"></i>Desert</span>
+  <span class="badge neutral"><i class="sw" style="background:var(--biome-arctic)"></i>Arctic</span>
+  <span class="badge neutral"><i class="sw" style="background:var(--biome-city)"></i>City</span>
+  <span class="badge neutral"><i class="sw" style="background:var(--biome-forest)"></i>Forest</span>
+</div>

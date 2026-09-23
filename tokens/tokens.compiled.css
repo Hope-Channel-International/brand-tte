@@ -1,0 +1,128 @@
+@font-face{font-family:"Mona Sans";src:url("MonaSans-Variable.woff2") format("woff2");font-weight:200 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Space Mono";src:url("SpaceMono-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Space Mono";src:url("SpaceMono-Bold.woff2") format("woff2");font-weight:700;font-style:normal;font-display:swap}
+:root, [data-theme="dark"] {
+  --fire-orange: #fe5442;
+  --black: #28272a;
+  --white: #ffffff;
+  --grey: #949494;
+  --brand-primary: var(--fire-orange);
+  --brand-dark: var(--black);
+  --brand-light: var(--white);
+  --surface: var(--black);
+  --ink: var(--white);
+  --ink-muted: var(--grey);
+  --text-default: var(--black);
+  --text-inverted: var(--white);
+  --text-accent: var(--fire-orange);
+  --text-muted: var(--grey);
+  --surface-dark: var(--black);
+  --surface-light: var(--white);
+  --surface-accent: var(--fire-orange);
+  --icon-primary: var(--fire-orange);
+  --icon-dark: var(--black);
+  --icon-light: var(--white);
+  --border-default: var(--white);
+  --border-accent: var(--fire-orange);
+  --hud-text: var(--white);
+  --hud-accent: var(--fire-orange);
+  --hud-background: var(--black);
+  --biome-desert: #b86c55;
+  --biome-arctic: #7ba7bc;
+  --biome-city: #4a4a52;
+  --biome-forest: #2d5a3d;
+  --hope-channel-blue: #264ca3;
+  --hope-channel-yellow: #fad306;
+  --elevation-sm: 0 2px 8px rgba(0, 0, 0, 0.30);
+  --elevation-md: 0 4px 16px rgba(0, 0, 0, 0.50);
+  --elevation-lg: 0 8px 32px rgba(0, 0, 0, 0.70);
+  --elevation-hud: 0 0 24px rgba(254, 84, 66, 0.20);
+}
+[data-theme="light"] {
+  --fire-orange: #fe5442;
+  --black: #28272a;
+  --white: #ffffff;
+  --grey: #949494;
+  --brand-primary: var(--fire-orange);
+  --brand-dark: var(--black);
+  --brand-light: var(--white);
+  --surface: var(--white);
+  --ink: var(--black);
+  --ink-muted: var(--grey);
+  --text-default: var(--black);
+  --text-inverted: var(--white);
+  --text-accent: var(--fire-orange);
+  --text-muted: var(--grey);
+  --surface-dark: var(--black);
+  --surface-light: var(--white);
+  --surface-accent: var(--fire-orange);
+  --icon-primary: var(--fire-orange);
+  --icon-dark: var(--black);
+  --icon-light: var(--white);
+  --border-default: var(--black);
+  --border-accent: var(--fire-orange);
+  --hud-text: var(--white);
+  --hud-accent: var(--fire-orange);
+  --hud-background: var(--black);
+  --biome-desert: #b86c55;
+  --biome-arctic: #7ba7bc;
+  --biome-city: #4a4a52;
+  --biome-forest: #2d5a3d;
+  --hope-channel-blue: #264ca3;
+  --hope-channel-yellow: #fad306;
+  --elevation-sm: 0 2px 8px rgba(0, 0, 0, 0.30);
+  --elevation-md: 0 4px 16px rgba(0, 0, 0, 0.50);
+  --elevation-lg: 0 8px 32px rgba(0, 0, 0, 0.70);
+  --elevation-hud: 0 0 24px rgba(254, 84, 66, 0.20);
+}
+:root {
+  --space-0: 0px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-32: 128px;
+  --radius-none: 0px;
+  --radius-default: 0px;
+  --radius-full: 9999px;
+  --sizing-control-sm: 36px;
+  --sizing-control-default: 44px;
+  --sizing-control-lg: 56px;
+  --border-width-thin: 1px;
+  --border-width-default: 2px;
+  --border-width-thick: 4px;
+  --opacity-topographic: 0.12;
+  --opacity-overlay-light: 0.08;
+  --opacity-overlay-medium: 0.24;
+  --opacity-overlay-heavy: 0.64;
+  --opacity-disabled: 0.40;
+  --font-mona: "Mona Sans", system-ui, sans-serif;
+  --font-mono: "Space Mono", ui-monospace, monospace;
+}
+.display-2xl{font-family:var(--font-mona);font-size:96px;line-height:0.95;letter-spacing:0.02em;font-weight:900}
+.display-xl{font-family:var(--font-mona);font-size:72px;line-height:0.95;letter-spacing:0.02em;font-weight:900}
+.display-l{font-family:var(--font-mona);font-size:60px;line-height:1;letter-spacing:0.02em;font-weight:800}
+.h1{font-family:var(--font-mona);font-size:48px;line-height:1.05;letter-spacing:0.01em;font-weight:800}
+.h2{font-family:var(--font-mona);font-size:36px;line-height:1.1;letter-spacing:0.01em;font-weight:800}
+.h3{font-family:var(--font-mona);font-size:28px;line-height:1;letter-spacing:0.01em;font-weight:700}
+.h4{font-family:var(--font-mona);font-size:22px;line-height:1;letter-spacing:0.02em;font-weight:700}
+.label-lg{font-family:var(--font-mona);font-size:16px;line-height:1;letter-spacing:0.04em;font-weight:800}
+.label-md{font-family:var(--font-mona);font-size:13px;line-height:1;letter-spacing:0.04em;font-weight:800}
+.mona-body{font-family:var(--font-mona);font-size:16px;line-height:1.2;letter-spacing:0em;font-weight:500}
+.mona-body-sm{font-family:var(--font-mona);font-size:14px;line-height:1.2;letter-spacing:0em;font-weight:500}
+.hud-xl{font-family:var(--font-mono);font-size:20px;line-height:1.2;letter-spacing:0.06em;font-weight:700}
+.hud-default{font-family:var(--font-mono);font-size:14px;line-height:1.2;letter-spacing:0.06em;font-weight:400}
+.hud-small{font-family:var(--font-mono);font-size:12px;line-height:1.2;letter-spacing:0.06em;font-weight:400}
+.hud-micro{font-family:var(--font-mono);font-size:10px;line-height:1.2;letter-spacing:0.06em;font-weight:400}
+.body-regular{font-family:var(--font-mono);font-size:16px;line-height:1.4;letter-spacing:0.01em;font-weight:400}
+.body-small{font-family:var(--font-mono);font-size:14px;line-height:1.4;letter-spacing:0.01em;font-weight:400}
+.body-xs{font-family:var(--font-mono);font-size:12px;line-height:1.6;letter-spacing:0.01em;font-weight:400}
+.mono-label{font-family:var(--font-mono);font-size:12px;line-height:1.4;letter-spacing:0.03em;font-weight:700}

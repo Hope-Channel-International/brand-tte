@@ -1,0 +1,68 @@
+<!-- @dsCard group="Actions" height=300 subtitle="intent × variant × size — Mona Sans mobiliza, Space Mono opera" -->
+<style>
+  body { margin: 0; padding: 20px; background: var(--surface); color: var(--ink);
+         font-family: var(--font-mono, "Space Mono", monospace); }
+  .grp { margin-bottom: 20px; }
+  .grp:last-child { margin-bottom: 0; }
+  .cap { font-family: "Space Mono", monospace; font-size: 10px; letter-spacing: .09em;
+         text-transform: uppercase; color: var(--fire-orange); margin-bottom: 10px; }
+  .row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+         height: var(--sizing-control-default); padding-inline: var(--space-5);
+         border: var(--border-width-thin) solid transparent; border-radius: var(--radius-default);
+         text-transform: uppercase; cursor: pointer; white-space: nowrap;
+         transition: background-color .18s, border-color .18s, color .18s; }
+  .btn:focus-visible { outline: 2px solid var(--border-accent); outline-offset: 2px; }
+
+  .mobilize { font-family: "Mona Sans", system-ui, sans-serif; font-size: 14px; font-weight: 800; letter-spacing: .04em; }
+  .operate  { font-family: "Space Mono", monospace;           font-size: 12px; font-weight: 700; letter-spacing: .08em; }
+
+  .lg { height: var(--sizing-control-lg); padding-inline: var(--space-8); font-size: 16px; }
+  .sm { height: var(--sizing-control-sm); padding-inline: var(--space-4); font-size: 11px; }
+  .ico { width: var(--sizing-control-default); padding-inline: 0; }
+
+  .v-default  { background: var(--surface-accent); color: var(--white); }
+  .v-outline  { border-color: color-mix(in srgb, var(--ink) 30%, transparent); color: var(--ink); }
+  .v-outline:hover { border-color: var(--fire-orange); color: var(--fire-orange); }
+  .v-secondary{ background: color-mix(in srgb, var(--ink) 10%, transparent); color: var(--ink); }
+  .v-ghost    { color: var(--ink); }
+  .v-ghost:hover { background: color-mix(in srgb, var(--ink) 10%, transparent); }
+  .v-link     { color: var(--fire-orange); text-decoration: underline; text-underline-offset: 4px;
+                padding-inline: 0; height: auto; }
+  .v-inverted { background: var(--white); color: var(--black); }
+  .btn[disabled] { opacity: var(--opacity-disabled); pointer-events: none; }
+</style>
+
+<div class="grp">
+  <div class="cap">intent = mobilize · Mona Sans · a voz</div>
+  <div class="row">
+    <button class="btn mobilize v-default lg">Join the mission</button>
+    <button class="btn mobilize v-default">Pray now</button>
+    <button class="btn mobilize v-outline">Give</button>
+    <button class="btn mobilize v-secondary">Learn more</button>
+    <button class="btn mobilize v-inverted">Partner</button>
+    <button class="btn mobilize v-link">Read the story</button>
+  </div>
+</div>
+
+<div class="grp">
+  <div class="cap">intent = operate · Space Mono · o instrumento</div>
+  <div class="row">
+    <button class="btn operate v-default sm">Export data</button>
+    <button class="btn operate v-outline sm">Filter</button>
+    <button class="btn operate v-ghost sm">Reset</button>
+    <button class="btn operate v-secondary sm">Next</button>
+    <button class="btn operate v-outline sm" disabled>Disabled</button>
+  </div>
+</div>
+
+<div class="grp">
+  <div class="cap">size · 56 / 44 / 36 px, da escala de controle</div>
+  <div class="row">
+    <button class="btn mobilize v-default lg">Large</button>
+    <button class="btn mobilize v-default">Default</button>
+    <button class="btn operate v-default sm">Small</button>
+    <button class="btn mobilize v-outline ico" aria-label="Avancar">&rarr;</button>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<!-- @dsCard group="TTE organisms" height=200 subtitle="O número impossível, com tick laranja" -->
+<style>
+  body { margin: 0; padding: 20px; background: var(--surface); color: var(--ink); }
+  .grid { display: grid; gap: var(--space-8);
+          grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); }
+  .stat { display: flex; gap: var(--space-3); align-items: flex-start; }
+  .tick { width: var(--border-width-thick); align-self: stretch; min-height: 56px;
+          background: var(--surface-accent); flex: none; }
+  .v { font-family: "Mona Sans", system-ui, sans-serif; font-size: 56px; font-weight: 900;
+       line-height: .95; letter-spacing: .02em; text-transform: uppercase; }
+  .l { font-family: "Space Mono", monospace; font-size: 11px; letter-spacing: .09em;
+       text-transform: uppercase; color: var(--text-muted); margin-top: var(--space-2); }
+  .em { color: var(--text-accent); }
+</style>
+
+<div class="grid">
+  <div class="stat"><i class="tick"></i><div>
+    <div class="v">3.6B</div><div class="l">People with no access to the gospel</div>
+  </div></div>
+  <div class="stat"><i class="tick"></i><div>
+    <div class="v">7,200<span class="em">+</span></div><div class="l">Unreached people groups</div>
+  </div></div>
+  <div class="stat"><i class="tick"></i><div>
+    <div class="v">0.1%</div><div class="l">Gospel access &middot; Tajik</div>
+  </div></div>
+</div>

@@ -1,0 +1,35 @@
+<!-- @dsCard group="Forms" height=340 subtitle="44px, raio 0, piso de 16px no valor" -->
+<style>
+  body { margin: 0; padding: 20px; background: var(--surface); color: var(--ink); }
+  .stack { display: flex; flex-direction: column; gap: var(--space-6); max-width: 380px; }
+  .field { display: flex; flex-direction: column; gap: var(--space-2); }
+  label { font-family: "Space Mono", monospace; font-size: 12px; letter-spacing: .06em;
+          text-transform: uppercase; color: var(--text-muted); }
+  .inp { height: var(--sizing-control-default); padding: 0 var(--space-4);
+         background: transparent; color: var(--ink);
+         border: var(--border-width-thin) solid color-mix(in srgb, var(--ink) 30%, transparent);
+         border-radius: var(--radius-default);
+         font-family: "Space Mono", monospace; font-size: 16px; width: 100%; box-sizing: border-box; }
+  .inp::placeholder { color: color-mix(in srgb, var(--ink) 35%, transparent); }
+  .inp:focus { outline: 2px solid var(--border-accent); outline-offset: 2px; border-color: var(--border-accent); }
+  .inp.invalid { border-color: var(--fire-orange); }
+  .inp:disabled { opacity: var(--opacity-disabled); cursor: not-allowed; }
+  .err { display: flex; align-items: center; gap: var(--space-1);
+         font-family: "Space Mono", monospace; font-size: 12px; color: var(--fire-orange); }
+</style>
+
+<div class="stack">
+  <div class="field">
+    <label for="pv-pg">People group</label>
+    <input class="inp" id="pv-pg" placeholder="Search the registry">
+  </div>
+  <div class="field">
+    <label for="pv-co">Coordinates</label>
+    <input class="inp invalid" id="pv-co" value="33.0 65.0" aria-invalid="true" aria-describedby="pv-co-e">
+    <span class="err" id="pv-co-e">&#9888; Formato esperado: 33.0N 65.0E</span>
+  </div>
+  <div class="field">
+    <label for="pv-st">Status</label>
+    <input class="inp" id="pv-st" value="Unreached" disabled>
+  </div>
+</div>

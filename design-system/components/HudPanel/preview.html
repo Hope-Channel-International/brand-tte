@@ -1,0 +1,45 @@
+<!-- @dsCard group="TTE organisms" height=300 subtitle="A assinatura: tick, quadrado laranja, linhas LABEL : VALUE" -->
+<style>
+  body { margin: 0; padding: 20px; background: var(--surface); }
+  .hud { max-width: 420px; background: var(--hud-background);
+         border: var(--border-width-thin) solid var(--border-accent);
+         border-radius: var(--radius-default); box-shadow: var(--elevation-hud); }
+  .tick { height: var(--border-width-default); background: var(--surface-accent); }
+  .head { display: flex; align-items: center; gap: var(--space-2);
+          padding: var(--space-3) var(--space-4);
+          border-bottom: var(--border-width-thin) solid color-mix(in srgb, var(--white) 14%, transparent); }
+  .sq { width: 8px; height: 8px; flex: none; background: var(--fire-orange); }
+  .title { font-family: "Space Mono", monospace; font-size: 14px; font-weight: 700;
+           letter-spacing: .06em; text-transform: uppercase; color: var(--hud-text); }
+  .status { margin-left: auto; padding: 2px var(--space-2);
+            border: var(--border-width-thin) solid var(--border-accent);
+            font-family: "Space Mono", monospace; font-size: 10px; letter-spacing: .08em;
+            text-transform: uppercase; color: var(--hud-accent); }
+  .row { display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-4);
+         padding: var(--space-2) var(--space-4);
+         border-bottom: var(--border-width-thin) solid color-mix(in srgb, var(--white) 8%, transparent); }
+  .row:last-child { border-bottom: none; }
+  .l { font-family: "Space Mono", monospace; font-size: 10px; letter-spacing: .09em;
+       text-transform: uppercase; color: var(--text-muted); }
+  .v { font-family: "Space Mono", monospace; font-size: 13px; letter-spacing: .05em;
+       text-transform: uppercase; color: var(--hud-text); text-align: right; }
+  .v.accent { color: var(--hud-accent); font-weight: 700; }
+  .biome { display: inline-flex; align-items: center; gap: var(--space-1);
+           padding: 2px var(--space-2);
+           border: var(--border-width-thin) solid color-mix(in srgb, var(--white) 22%, transparent);
+           font-size: 10px; letter-spacing: .08em; }
+  .sw { width: 9px; height: 9px; background: var(--biome-desert); }
+</style>
+
+<div class="hud">
+  <div class="tick"></div>
+  <div class="head">
+    <i class="sq"></i><span class="title">Target &middot; Tajik</span>
+    <span class="status">Unreached</span>
+  </div>
+  <div class="row"><span class="l">Est. pop</span><span class="v">12,000,000</span></div>
+  <div class="row"><span class="l">Gospel access</span><span class="v accent">0.1%</span></div>
+  <div class="row"><span class="l">Biome</span><span class="v"><span class="biome"><i class="sw"></i>Desert</span></span></div>
+  <div class="row"><span class="l">Coords</span><span class="v">33.0&deg;N 65.0&deg;E</span></div>
+  <div class="row"><span class="l">Access</span><span class="v">Restricted</span></div>
+</div>

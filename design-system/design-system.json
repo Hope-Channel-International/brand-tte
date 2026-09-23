@@ -1,0 +1,241 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-09-23T13:03:10Z"
+  },
+  "title": "To The Ends of The Earth",
+  "namespace": "TTE",
+  "libraries": [],
+  "sections": {},
+  "groups": [
+    "Logos",
+    "Patterns"
+  ],
+  "assetGroups": {
+    "Logos": {
+      "name": "Logos",
+      "tile": "l",
+      "order": [
+        "mark-full-black.svg",
+        "mark-full-white.svg",
+        "mark-dark-bg.svg",
+        "mark-light-bg.svg",
+        "wordmark-horizontal-orange-black.svg",
+        "wordmark-horizontal-orange-white.svg",
+        "wordmark-horizontal-black.svg",
+        "wordmark-horizontal-white.svg",
+        "wordmark-vertical-orange-black.svg",
+        "wordmark-vertical-orange-white.svg",
+        "wordmark-vertical-black.svg",
+        "wordmark-vertical-white.svg",
+        "lockup-horizontal-black.svg",
+        "lockup-horizontal-white.svg",
+        "lockup-horizontal-modular-black.svg",
+        "lockup-horizontal-modular-white.svg",
+        "lockup-vertical-black.svg",
+        "lockup-vertical-white.svg",
+        "hopechannel-complete-light-bg.svg",
+        "hopechannel-complete-dark-bg.svg",
+        "hopechannel-horizontal-powered-black.svg",
+        "hopechannel-horizontal-powered-white.svg",
+        "hopechannel-vertical-powered-black.svg",
+        "hopechannel-vertical-powered-white.svg",
+        "hopechannel-icon-light-bg.svg",
+        "hopechannel-icon-dark-bg.svg"
+      ],
+      "files": {
+        "mark-full-black.svg": {
+          "name": "mark-full-black.svg",
+          "blob": "04dd2a4452046a418d3765ba3fa9a44e",
+          "size": 456,
+          "type": "image/svg+xml"
+        },
+        "mark-full-white.svg": {
+          "name": "mark-full-white.svg",
+          "blob": "f62b02d76d32f05d1d13f4a53600cf52",
+          "size": 672,
+          "type": "image/svg+xml"
+        },
+        "mark-dark-bg.svg": {
+          "name": "mark-dark-bg.svg",
+          "blob": "6e9e66543eaa0bd75ab38bebc0fea509",
+          "size": 696,
+          "type": "image/svg+xml"
+        },
+        "mark-light-bg.svg": {
+          "name": "mark-light-bg.svg",
+          "blob": "adb742939fedba826f18a7c6e370fa8e",
+          "size": 456,
+          "type": "image/svg+xml"
+        },
+        "wordmark-horizontal-black.svg": {
+          "name": "wordmark-horizontal-black.svg",
+          "blob": "e368b6a3fabf2ada0355ba8350bf3453",
+          "size": 5228,
+          "type": "image/svg+xml"
+        },
+        "wordmark-horizontal-white.svg": {
+          "name": "wordmark-horizontal-white.svg",
+          "blob": "f7780142f1ef8b878bf63d24532fd99e",
+          "size": 5225,
+          "type": "image/svg+xml"
+        },
+        "wordmark-horizontal-orange-black.svg": {
+          "name": "wordmark-horizontal-orange-black.svg",
+          "blob": "03ec7ed846e2a22b9f8c9bfa37693f89",
+          "size": 5255,
+          "type": "image/svg+xml"
+        },
+        "wordmark-horizontal-orange-white.svg": {
+          "name": "wordmark-horizontal-orange-white.svg",
+          "blob": "9a1e6e4aa235cb516d2979c0ab34c07a",
+          "size": 5252,
+          "type": "image/svg+xml"
+        },
+        "wordmark-vertical-black.svg": {
+          "name": "wordmark-vertical-black.svg",
+          "blob": "5211fcb828f4ba22d6f559654d7b8720",
+          "size": 6248,
+          "type": "image/svg+xml"
+        },
+        "wordmark-vertical-white.svg": {
+          "name": "wordmark-vertical-white.svg",
+          "blob": "574fb46c5241f117a0f123faf51a4e73",
+          "size": 6245,
+          "type": "image/svg+xml"
+        },
+        "wordmark-vertical-orange-black.svg": {
+          "name": "wordmark-vertical-orange-black.svg",
+          "blob": "d17d2c4e408bf75055754776cde1f0e0",
+          "size": 6275,
+          "type": "image/svg+xml"
+        },
+        "wordmark-vertical-orange-white.svg": {
+          "name": "wordmark-vertical-orange-white.svg",
+          "blob": "281ee739c0d7dea3475857530be49a5b",
+          "size": 6272,
+          "type": "image/svg+xml"
+        },
+        "lockup-horizontal-black.svg": {
+          "name": "lockup-horizontal-black.svg",
+          "blob": "a0246d3685e3bd6962e675e7fcc5da56",
+          "size": 5387,
+          "type": "image/svg+xml"
+        },
+        "lockup-horizontal-white.svg": {
+          "name": "lockup-horizontal-white.svg",
+          "blob": "4f3df1ccde738139497d946a858b8120",
+          "size": 5579,
+          "type": "image/svg+xml"
+        },
+        "lockup-horizontal-modular-black.svg": {
+          "name": "lockup-horizontal-modular-black.svg",
+          "blob": "cfc61b11da4dde165124863e6bd1fea5",
+          "size": 6628,
+          "type": "image/svg+xml"
+        },
+        "lockup-horizontal-modular-white.svg": {
+          "name": "lockup-horizontal-modular-white.svg",
+          "blob": "e4c621e2bc49926a8e9bb0fcfbc302bb",
+          "size": 6406,
+          "type": "image/svg+xml"
+        },
+        "lockup-vertical-black.svg": {
+          "name": "lockup-vertical-black.svg",
+          "blob": "2f1bfc406cc9b579539db5d1b4a66061",
+          "size": 5558,
+          "type": "image/svg+xml"
+        },
+        "lockup-vertical-white.svg": {
+          "name": "lockup-vertical-white.svg",
+          "blob": "44d3ad8f6e308c14be2da40f0e33139a",
+          "size": 5805,
+          "type": "image/svg+xml"
+        },
+        "hopechannel-complete-dark-bg.svg": {
+          "name": "hopechannel-complete-dark-bg.svg",
+          "blob": "6d05d725de7820a973dd3f830e34b88f",
+          "size": 6076,
+          "type": "image/svg+xml"
+        },
+        "hopechannel-complete-light-bg.svg": {
+          "name": "hopechannel-complete-light-bg.svg",
+          "blob": "365124fb1a5084686d5264e7ca61f188",
+          "size": 5888,
+          "type": "image/svg+xml"
+        },
+        "hopechannel-horizontal-powered-black.svg": {
+          "name": "hopechannel-horizontal-powered-black.svg",
+          "blob": "c56f0531bde4a986e1d9170578453a46",
+          "size": 1406,
+          "type": "image/svg+xml"
+        },
+        "hopechannel-horizontal-powered-white.svg": {
+          "name": "hopechannel-horizontal-powered-white.svg",
+          "blob": "dec17a3c144e8cb342af3ca662686844",
+          "size": 1403,
+          "type": "image/svg+xml"
+        },
+        "hopechannel-vertical-powered-black.svg": {
+          "name": "hopechannel-vertical-powered-black.svg",
+          "blob": "b03f77113d49f3c4b9916bfff06a8ceb",
+          "size": 1439,
+          "type": "image/svg+xml"
+        },
+        "hopechannel-vertical-powered-white.svg": {
+          "name": "hopechannel-vertical-powered-white.svg",
+          "blob": "8cd218abe05b5e015105c32b7c137bac",
+          "size": 1436,
+          "type": "image/svg+xml"
+        },
+        "hopechannel-icon-dark-bg.svg": {
+          "name": "hopechannel-icon-dark-bg.svg",
+          "blob": "78821fb133ae21e88a2a8a0fa019de89",
+          "size": 978,
+          "type": "image/svg+xml"
+        },
+        "hopechannel-icon-light-bg.svg": {
+          "name": "hopechannel-icon-light-bg.svg",
+          "blob": "4b71b96181a76e722fca9f9cb83dc81b",
+          "size": 784,
+          "type": "image/svg+xml"
+        }
+      }
+    },
+    "Patterns": {
+      "name": "Patterns",
+      "tile": "l",
+      "order": [
+        "pattern-simple.svg",
+        "pattern-tile.svg"
+      ],
+      "files": {
+        "pattern-simple.svg": {
+          "name": "pattern-simple.svg",
+          "blob": "9fdd112be04219a31eaaceba9ccc18b1",
+          "size": 15286,
+          "type": "image/svg+xml"
+        },
+        "pattern-tile.svg": {
+          "name": "pattern-tile.svg",
+          "blob": "d9bb37da412c635b0dda7b85b7a74b86",
+          "size": 64421,
+          "type": "image/svg+xml"
+        }
+      }
+    }
+  },
+  "blobs": {},
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "lastChange": {
+    "by": "Claude",
+    "via": "Claude Code",
+    "at": "2026-09-23T13:03:10Z",
+    "note": "Sistema inicial construido do repositorio tte-brand-system e da pasta de marca do Drive."
+  }
+}
